@@ -3,7 +3,7 @@
 #
 
 module Puppet
-  newtype(:notify) do
+  newtype(:enotify) do
     @doc = "Sends an arbitrary message to the agent run-time log."
 
     newproperty(:message) do
