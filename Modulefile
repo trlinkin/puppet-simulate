@@ -1,0 +1,7 @@
+name    'trlinkin-enhanced-notify'
+version '0.0.1'
+source 'https://github.com/trlinkin/puppet-enhanced-notify'
+author 'Thomas Linkin'
+license 'Apache License, Version 2.0'
+summary 'Enhanced notify type for Puppet'
+project_page 'https://github.com/trlinkin/puppet-enhanced-notify'
