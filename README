@@ -1,6 +1,6 @@
-Enhanced Notify
+Puppet Simulate Type
 
-This is the enhanced-notify module.
+This Puppet resource allows for easy simulation of resource states. This can be useful to test new features of Puppet while developing.
 
 License
 -------
@@ -14,4 +14,4 @@ Tom Linkin <tom@puppetlabs.com>
 Support
 -------
 
-Please log tickets and issues at our [Projects site](https://github.com/trlinkin/puppet-enhanced-notify)
+Please log tickets and issues at our [Projects site](https://github.com/trlinkin/puppet-simulate/issues)

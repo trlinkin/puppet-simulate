@@ -1,8 +1,5 @@
-#
-# Simple module for logging messages on the client-side
-#
-Puppet::Type.newtype(:enotify) do
-  @doc = "Sends an arbitrary message to the agent run-time log."
+Puppet::Type.newtype(:simulate) do
+  desc "Simulate various states and behaviours of Puppet Resources."
 
   newproperty(:message) do
     desc "The message to be sent to the log."
