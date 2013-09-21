@@ -44,7 +44,7 @@ Puppet::Type.newtype(:simulate) do
     isnamevar
   end
 
-  newparam(:debugonly) do
+  newparam(:debug_only) do
     desc "Only simulate changed or failed events if this is a debug run. Defaults to false"
     defaultto false
 
