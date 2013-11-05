@@ -22,7 +22,7 @@ Puppet::Type.newtype(:simulate) do
     end
 
     def insync?(is)
-      if resource[:state] == :unchanged or (resource[:debugonly] and !Puppet[:debug])
+      if resource[:state] == :unchanged or (resource[:debug_only] and !Puppet[:debug])
         true
       else
         false
